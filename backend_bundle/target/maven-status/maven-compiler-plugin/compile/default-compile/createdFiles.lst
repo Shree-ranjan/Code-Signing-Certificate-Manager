@@ -1,0 +1,13 @@
+com\qcecuring\platform\certificate\dto\mapper\CertificateMapper.class
+com\qcecuring\platform\certificate\controller\SignedFileController.class
+com\qcecuring\platform\certificate\service\SignedFileService.class
+com\qcecuring\platform\certificate\model\CertificateEntity.class
+com\qcecuring\platform\certificate\service\CertificateService.class
+com\qcecuring\platform\certificate\model\SignedFileEntity.class
+com\qcecuring\platform\certificate\repository\SignedFileRepository.class
+com\qcecuring\platform\certificate\controller\CertificateController.class
+com\qcecuring\platform\certificate\dto\request\CertificateRequestDTO.class
+com\qcecuring\platform\certificate\CertificateApplication.class
+com\qcecuring\platform\certificate\dto\response\CertificateResponseDTO.class
+com\qcecuring\platform\certificate\repository\CertificateRepository.class
+com\qcecuring\platform\config\GlobalExceptionHandler.class

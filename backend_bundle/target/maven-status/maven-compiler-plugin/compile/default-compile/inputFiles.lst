@@ -2,7 +2,7 @@ C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuri
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\service\SignedFileService.java
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\controller\SignedFileController.java
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\repository\SignedFileRepository.java
-C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\GlobalExceptionHandler.java
+C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\config\GlobalExceptionHandler.java
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\model\SignedFileEntity.java
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\controller\CertificateController.java
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\dto\request\CertificateRequestDTO.java
@@ -11,3 +11,4 @@ C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuri
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\dto\mapper\CertificateMapper.java
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\repository\CertificateRepository.java
 C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\model\CertificateEntity.java
+C:\Users\labhs\Downloads\backend_bundle\backend_bundle\src\main\java\com\qcecuring\platform\certificate\config\CorsConfig.java

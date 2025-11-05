@@ -17,8 +17,8 @@ import { CertificateService } from '../../../services/certificate.service';
         <th>Status</th>
       </tr>
       <tr *ngFor="let cert of certificates">
-        <td>{{ cert.name }}</td>
-        <td>{{ cert.issuer }}</td>
+        <td>{{ cert.certificateName }}</td>
+        <td>{{ cert.issuerName }}</td>
         <td>{{ cert.validFrom | date }}</td>
         <td>{{ cert.validTo | date }}</td>
         <td>{{ cert.status }}</td>

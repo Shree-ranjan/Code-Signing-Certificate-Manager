@@ -13,6 +13,6 @@ export class SignedFileService {
   }
 
   signFile(fileName: string, certificateId: string): Observable<any> {
-    return this.http.post(`${this.baseUrl}/sign?fileName=${fileName}&certificateId=${certificateId}`, {});
+    return this.http.post(`${this.baseUrl}/sign?fileName=${encodeURIComponent(fileName)}&certificateId=${encodeURIComponent(certificateId)}`, {});
   }
 }

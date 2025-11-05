@@ -19,7 +19,7 @@ import { SignedFileService } from '../../../services/signedfile.service';
         <td>{{ s.fileName }}</td>
         <td>{{ s.certificateName }}</td>
         <td>{{ s.status }}</td>
-        <td>{{ s.signedAt | date:'short' }}</td>
+        <td>{{ s.signedAt | date:'medium' }}</td>
       </tr>
     </table>
   `,

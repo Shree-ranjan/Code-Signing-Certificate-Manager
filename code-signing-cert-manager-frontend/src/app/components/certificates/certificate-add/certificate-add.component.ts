@@ -12,10 +12,10 @@ import { CertificateService } from '../../../services/certificate.service';
     <div style="text-align: center;">
       <h2>Add Certificate</h2>
       <form [formGroup]="certForm" (ngSubmit)="onSubmit()" class="form">
-      <label>Name:</label>
-      <input formControlName="name" type="text" />
-      <label>Issuer:</label>
-      <input formControlName="issuer" type="text" />
+      <label>Certificate Name:</label>
+      <input formControlName="certificateName" type="text" />
+      <label>Issuer Name:</label>
+      <input formControlName="issuerName" type="text" />
       <label>Valid From:</label>
       <input formControlName="validFrom" type="date" />
       <label>Valid To:</label>
@@ -38,8 +38,8 @@ export class CertificateAddComponent {
   private router = inject(Router);
 
   certForm = this.fb.group({
-    name: ['', Validators.required],
-    issuer: ['', Validators.required],
+    certificateName: ['', Validators.required],
+    issuerName: ['', Validators.required],
     validFrom: ['', Validators.required],
     validTo: ['', Validators.required]
   });

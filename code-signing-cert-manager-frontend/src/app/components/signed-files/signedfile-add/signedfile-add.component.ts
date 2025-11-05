@@ -16,7 +16,7 @@ import { CertificateService } from '../../../services/certificate.service';
       <label>Certificate:</label>
       <select formControlName="certificateId">
         <option value="">Select Certificate</option>
-        <option *ngFor="let c of certificates" [value]="c.id">{{ c.name }}</option>
+        <option *ngFor="let c of certificates" [value]="c.id">{{ c.certificateName }}</option>
       </select>
       <button type="submit" [disabled]="signForm.invalid">Sign File</button>
     </form>

@@ -59,3 +59,27 @@ The application exposes REST APIs for:
 - Signed file management
 
 Check the controller classes for detailed endpoint information.
+
+## Working Flow
+
+### Certificate Management Flow
+1. **Create Certificate**: Users can create new digital certificates through the `/api/certificates` POST endpoint
+2. **View Certificates**: All certificates can be retrieved through the `/api/certificates` GET endpoint
+3. **Certificate Validation**: When creating a certificate, the system validates:
+   - Certificate name uniqueness
+   - Valid from/to dates (valid to must be after valid from)
+   - Required fields are present
+
+### File Signing Flow
+1. **Select Certificate**: Users select an existing certificate for signing
+2. **Sign File**: Files are signed through the `/api/signed-files/sign` POST endpoint
+3. **View Signed Files**: All signed files can be retrieved through the `/api/signed-files` GET endpoint
+4. **Certificate Validation**: The system verifies the certificate exists and is active before signing
+
+### Data Flow
+1. **Frontend** sends HTTP requests to backend endpoints
+2. **Controllers** receive and validate requests
+3. **Services** process business logic
+4. **Repositories** handle data persistence to MongoDB
+5. **MongoDB** stores certificate and signed file records
+6. **Response** is sent back to frontend
